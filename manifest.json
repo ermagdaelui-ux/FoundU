@@ -3,8 +3,8 @@
   "short_name": "FoundU",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#f5f5f5",
-  "theme_color": "#f5f5f5",
+  "background_color": "#FFF1DF",
+  "theme_color": "#FFF1DF",
   "description": "A simple FoundU application",
   "icons": [
     {
@@ -19,5 +19,6 @@
     }
   ]
 }
+
 
 
