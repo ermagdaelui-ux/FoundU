@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Found Item Details</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="/manifest.json">
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="lost.css">
+</head>
+<body>
+
+  <div class="phone">
+
+    <div class="header">
+      <div class="back" onclick="history.back()">←</div>
+      <h2> Found Item Details</h2>
+    </div>
+
+    <div class="photo">
+      <div class="photo-circle">📷</div>
+      <p>Add a Photo</p>
+    </div>
+
+    <label>Found By</label>
+    <input type="text" placeholder="e.g. Michael Santos">
+
+    <label>Item Name</label>
+    <input type="text" placeholder="e.g. Black Wallet">
+    
+    <label>Lost Location</label>
+   <input type="text" placeholder="e.g. Computer lab 7">
+
+    <div class="row">
+      <input type="date">
+      <input type="time">
+    </div>
+
+    <label>Description</label>
+    <textarea placeholder="Describe the lost item..."></textarea>
+
+    <button class="submit">Submit Report</button>
+
+  </div>
+
+</body>
+</html>

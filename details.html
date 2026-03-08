@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/manifest.json">
+    <title>Item Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Optional: For back arrow icon (using Font Awesome) -->
+    <link rel="stylesheet" href="details.css">
+</head>
+<body>
+    <div class="phone-container">
+        <!-- Header Section -->
+        <header class="item-header">
+            <a href="#" class="back-arrow"><i class="fas fa-chevron-left"></i></a>
+            <h1>Item Details</h1>
+        </header>
+
+        <!-- Item Image Section -->
+        <div class="item-image-wrapper">
+            <img src="iphone-12.png" alt="iPhone 12" class="item-image">
+            <!-- Optional decorative elements (can be added as CSS pseudo-elements) -->
+            <div class="decor-plant plant-left"></div>
+            <div class="decor-plant plant-right"></div>
+        </div>
+
+        <!-- Item Info Section -->
+        <div class="item-info">
+            <div class="item-name-badge">
+                <h2>iPhone 12</h2>
+                <span class="status-badge">Claimed</span>
+            </div>
+            <p class="location-time">Found in Computer Lab 202<br>Today, 3:00 PM</p>
+            <p class="description">Black iPhone 12 found in the computer lab. Taken at 3:00 PM</p>
+            
+            <!-- Found By Section -->
+            <div class="found-by">
+                <img src="profile-pic.png" alt="Founder Profile" class="founder-avatar">
+                <div class="founder-details">
+                    <p class="label">Found by</p>
+                    <p class="name">Michael Santos</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Action Button -->
+        <button class="action-btn">Claim Item</button>
+    </div>
+</body>
+</html>

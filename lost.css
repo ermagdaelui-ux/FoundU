@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Phone container */
+.phone {
+  width: 360px;
+  height: 700px;
+  background:#fff3e6;
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.header {
+  color: #f4b400;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.back {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* Add photo */
+.photo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.photo-circle {
+  width: 80px;
+  height: 80px;
+  border: 2px dashed #ccc;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  color: #faf6f6;
+}
+
+.photo p {
+  margin-top: 8px;
+  color: #f0f0f0;
+  font-size: 14px;
+}
+
+/* Form */
+label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  display: block;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+textarea {
+  height: 90px;
+  resize: none;
+}
+
+/* Button */
+.submit {
+  margin-top: auto;
+  background: #f4b400;
+  border: none;
+  padding: 14px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}

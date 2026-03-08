@@ -1,0 +1,175 @@
+/* Reset Default Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f5f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Phone Container (Mimics Mobile Device) */
+.phone-container {
+    width: 100%;
+    max-width: 375px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    padding: 25px 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    position: relative;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Header Section */
+.item-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.back-arrow {
+    color: #333333;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.item-header h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333;
+}
+
+/* Item Image Wrapper */
+.item-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 15px 0;
+}
+
+.item-image {
+    width: 180px;
+    height: auto;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+/* Decorative Plants (Optional) */
+.decor-plant {
+    position: absolute;
+    width: 25px;
+    height: 40px;
+    background-color: #4caf50;
+    border-radius: 20px;
+    z-index: 0;
+}
+
+.plant-left {
+    left: 60px;
+    bottom: 25px;
+    transform: rotate(-15deg);
+}
+
+.plant-right {
+    right: 60px;
+    bottom: 25px;
+    transform: rotate(15deg);
+}
+
+/* Item Info Section */
+.item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 10px;
+}
+
+.item-name-badge {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.item-info h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #222222;
+}
+
+.status-badge {
+    background-color: #81c784;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.location-time {
+    font-size: 14px;
+    color: #555555;
+    line-height: 1.5;
+}
+
+.description {
+    font-size: 13px;
+    color: #666666;
+    line-height: 1.4;
+}
+
+/* Found By Section */
+.found-by {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.founder-avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #eeeeee;
+}
+
+.founder-details .label {
+    font-size: 12px;
+    color: #777777;
+}
+
+.founder-details .name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+}
+
+/* Bottom Action Button */
+.action-btn {
+    width: 100%;
+    background-color: #ffb74d;
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: auto; /* Pushes button to bottom */
+}
+
+.action-btn:hover {
+    background-color: #ffa726;
+}
