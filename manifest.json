@@ -1,11 +1,11 @@
 {
-  "name": "To-Do List App",
-  "short_name": "ToDo",
+  "name": "FoundU App",
+  "short_name": "FoundU",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#ff84ca",
   "theme_color": "#ff84ca",
-  "description": "A simple to-do list application",
+  "description": "A simple FoundU application",
   "icons": [
     {
       "src": "icon-192.png",
@@ -19,3 +19,4 @@
     }
   ]
 }
+
